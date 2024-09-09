@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(hsla(180, 2%, 32%, 0.87),hsla(180, 2%, 32%, 0.87)),url("https://i.pinimg.com/236x/aa/31/31/aa313123851198cca916ea1d6a8cd546.jpg");
+}
+
+.container{
+    box-shadow: 5px 10px 6px black;
+    background-color: grey;
+    margin-top: 120px;
+    margin-left: 500px;
+    height: 380px;
+    width: 300px;
+    border: 2px solid black;
+}
+#inputBox{
+    background-color: lightblue;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    height:55px;
+    width: 90%;
+    font-size:x-large;
+    font-weight: bolder;
+    box-shadow: 5px 10px 10px black;
+}
+.operator{
+    background-color: rgb(163, 132, 76);
+}
+.buttons1{
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: repeat(4,60px);
+    /* gap:10px */
+    justify-content: space-between;
+}
+button{
+    font-weight: bolder;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    height: 40px;
+    width: 40px;
+    box-shadow: 2px 6px 11px black;
+}
+button:hover{
+    cursor: pointer;
+    background-color: lightblue;
+}
